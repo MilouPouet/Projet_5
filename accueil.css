@@ -157,7 +157,7 @@ nav {
 
 .logo {
     font-weight: 900;
-    font-size: 24px;
+    font-size: 25px;
     letter-spacing: 1px;
 }
 
@@ -217,7 +217,7 @@ nav {
 .hero h1 {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     line-height: 1.1;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -413,7 +413,7 @@ nav {
 
 /* --- 7. GALLERY - Responsive Grid --- */
 .gallery-section {
-    padding: var(--section-padding);
+    padding: clamp(3rem, 8vw, 6rem) 10%;
 }
 
 .gallery-header {
